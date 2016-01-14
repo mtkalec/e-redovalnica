@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Matic Tkalec">
+
+    <title>e-Redovalnica</title>
+
+    <link href="stylesheets/bootstrap.css" rel="stylesheet">
+    <link href="stylesheets/login.css" rel="stylesheet">
+    <script src="js/bootstrap.js"></script>
+
+
+  </head>
+
+  <body>
+
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class = "modal-title">e-Redovalnica</h3>
+        </div>
+        <div class="modal-body">
+            <% if (message.length > 0) { %>
+                <div class="alert alert-danger"><%= message %></div>
+            <% } %>
+            <form class="form-login" method="post" action="/signup">
+              <input type="text" name="ime" id="ime" class="form-control" placeholder="Ime" autofocus>
+              <input type="text" name="priimek" id="priimek" class="form-control" placeholder="Priimek">
+              <input type="text" name="username" id="inputUsername" class="form-control" placeholder="Uporabniško ime">
+              <input type="password" name="password" id="inputPassword" class="form-control" placeholder="Geslo">
+              <input type="text" name="email" id="mail" class="form-control" placeholder="E-mail">
+
+
+              <br>
+              <input type="submit" value="Registracija" class="btn btn-primary center-block">
+            </form>
+
+        </div>
+        <div class="modal-footer">
+          <p><sup>Že imate račun? </sup><a href="/login"><sup> Prijavite se</a></sup></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

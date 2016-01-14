@@ -1,0 +1,40 @@
+body {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #D0D0D0;
+}
+
+
+.form-login {
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
+.form-login {
+  font-weight: normal;
+}
+.form-login .form-control {
+  position: relative;
+  height: auto;
+  /*chrome, safari*/
+  -webkit-box-sizing: border-box;
+  /*mozilla*/
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.form-login input[type="text"] {
+  margin-bottom: 10px;
+  
+}
+.form-login input[type="password"] {
+  margin-bottom: 10px;
+  
+}
+
+.modal-footer .btn{
+  /*float: right;*/
+}

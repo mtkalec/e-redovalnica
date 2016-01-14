@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset = "utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Matic Tkalec">
+    <title>e-Redovalnica</title>
+    <link href="Stylesheets/bootstrap.css" rel="stylesheet">
+    <link href="Stylesheets/nav.css" rel = "stylesheet">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+  </head>
+
+  <body onload = "initVal()">
+    <nav class="navbar">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">e-Redovalnica</a>
+        </div>
+        <div>
+          <ul class="nav navbar-nav">
+            <li><a href="/index">Domov</a></li>
+            <li class="active"><a href="#">Informacije</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a>Prijavljeni ste kot: <strong><%= user.username %></strong></a></li>
+            <li><a href="/logout"><span class="glyphicon glyphicon-log-out"></span> Odjava</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="panel panel-primary">
+        <div class="panel-heading">
+          <h3 class="panel-title">Informacije</h3>
+        </div>
+        <div class="panel-body" style="min-height: 620px; overflow-y: scroll;">
+          <p><h4>Dobrodošli na spletni aplikaciji e-Redovalnica!</h4></p>
+          <p>Tukaj lahko vpisujete dnevne dogodke v dnevnik, oddajate poročila o odsotnosti in vpisujete ocene.</p>
+
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
