@@ -1,0 +1,11 @@
+Navodila za namestitev aplikacije:
+
+Node.js: https://nodejs.org/en/download/
+
+Source code: git clone https://github.com/mtkalec/e-redovalnica.git
+
+cd /appdir
+
+npm install
+
+Zagon: node server.js
