@@ -29,8 +29,8 @@ app.use(session({ secret: 'secret',
 
 
 app.use(passport.initialize());
-app.use(passport.session()); // persistent login sessions
-app.use(flash()); // use connect-flash for flash messages stored in session
+app.use(passport.session());
+app.use(flash()); // connect flash za sporocila 
 app.use(cookieParser());
 app.use(logger('combined', {stream: accessLogStream}));
 app.use(express.static('public'));
@@ -49,8 +49,8 @@ require('./controllers/passport')(passport);
 //sequelize-auto -h localhost -o "./models" -d database -u root -x testpwd -e mysql
 
 var server = app.listen(3000, function () {
-  var host = server.address().address;
+  var host = "localhost";
   var port = server.address().port;
 
-  console.log('Example app listening at http://%s:%s', host, port);
+  console.log('E-redovalnica na http://%s:%s', host, port);
 });
