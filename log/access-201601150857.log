@@ -1,0 +1,4 @@
+::1 - - [15/Jan/2016:07:57:01 +0000] "GET /login HTTP/1.1" 304 - "http://localhost:3000/index" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36"
+::1 - - [15/Jan/2016:07:57:01 +0000] "GET /stylesheets/bootstrap.css HTTP/1.1" 304 - "http://localhost:3000/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36"
+::1 - - [15/Jan/2016:07:57:01 +0000] "GET /stylesheets/login.css HTTP/1.1" 304 - "http://localhost:3000/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36"
+::1 - - [15/Jan/2016:07:57:01 +0000] "GET /js/bootstrap.js HTTP/1.1" 304 - "http://localhost:3000/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36"
